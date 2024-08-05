@@ -32,3 +32,5 @@ Deploy the API to the stage
 Step 6: Test the Application
 Used Postman to send a POST request to the API
 Verify that the email is sent successfully using SES
+
+The node.js lambda function code is available in ths repository
