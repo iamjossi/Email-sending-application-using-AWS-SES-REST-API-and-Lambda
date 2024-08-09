@@ -13,7 +13,7 @@ Navigate to the IAM dashboard and create a new role
 Grant the role full access to SES
 Name the role and save it
 
-Step 3: Build a Lambda Function
+Step 3: Configure a Lambda Function
 Navigate to the Lambda dashboard and create a new function
 Choose the IAM role created in Step 2 as the execution role
 Write the Lambda function code to send an email using SES
@@ -29,7 +29,7 @@ Step 5: Deploy the API
 Create a new stage 
 Deploy the API to the stage
 
-Step 6: Test the Application
+Step 6: Test the Application.
 Used Postman to send a POST request to the API
 Verify that the email is sent successfully using SES
 
